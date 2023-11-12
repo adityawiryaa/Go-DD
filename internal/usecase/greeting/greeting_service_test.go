@@ -30,7 +30,7 @@ func TestGreet(t *testing.T) {
 		errors     error
 	}{
 		{
-			name: "should be success create admin approval with type create user",
+			name: "should be success create greet",
 			args: args{
 				ctx: context.TODO(),
 				input: &entity.GreetingDTO{
